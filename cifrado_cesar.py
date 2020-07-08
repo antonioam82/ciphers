@@ -7,8 +7,8 @@ SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!?.'
 
 while True:
 	mode = enum(ops)
-	message = raw_input("Tu texto: ")
-	key = OKI(raw_input("Introduce número clave: "))
+	message = input("Tu texto: ")
+	key = OKI(input("Introduce número clave: "))
 	translated = ""
 	for symbol in message:
 		if symbol in SYMBOLS:
@@ -29,7 +29,7 @@ while True:
 			translated = translated + symbol
 	print(translated)
 	
-	conti = ns(raw_input("Continuar(n/s)?: "))
+	conti = ns(input("Continuar(n/s)?: "))
 	
 	if conti == "n":
 		break
