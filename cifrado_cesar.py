@@ -27,7 +27,7 @@ while True:
 			translated = translated + SYMBOLS[T_INDEX%(len(SYMBOLS))]
 		else:
 			translated = translated + symbol
-	print(translated)
+	print("Texto resultado: ",translated)
 	
 	conti = ns(input("Continuar(n/s)?: "))
 	
