@@ -10,6 +10,7 @@ def encript(k,M):
 			texto_cifrado[column] += M[currentIndex]
 			
 			currentIndex += k
+			
 	result = ("".join(texto_cifrado))
 	return(result)
 
