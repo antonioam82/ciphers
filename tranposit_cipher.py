@@ -14,12 +14,12 @@ def encript(k,M):
 	return(result)
 
 while True:
-	myMessage = raw_input("Texto: ")
-	myKey = OKI(raw_input("Clave: "))
+	myMessage = input("Texto: ")
+	myKey = OKI(input("Clave: "))
 	texto_cifrado = (encript(myKey,myMessage))
 	print(texto_cifrado)
 	
-	conti = ns(raw_input("¿Continuar(n/s)?: "))
+	conti = ns(input("¿Continuar(n/s)?: "))
 	
 	if conti == "n":
 		break
