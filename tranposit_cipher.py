@@ -17,7 +17,7 @@ while True:
 	myMessage = input("Texto: ")
 	myKey = OKI(input("Clave: "))
 	texto_cifrado = (encript(myKey,myMessage))
-	print(texto_cifrado)
+	print("Texto cifrado: ",texto_cifrado)
 	
 	conti = ns(input("¿Continuar(n/s)?: "))
 	
