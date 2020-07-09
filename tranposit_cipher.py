@@ -8,7 +8,6 @@ def encript(k,M):
 		currentIndex = column
 		while currentIndex < len(M):
 			cif[column] += M[currentIndex]
-			
 			currentIndex += k
 	result = ("".join(cif))
 	return(result)
